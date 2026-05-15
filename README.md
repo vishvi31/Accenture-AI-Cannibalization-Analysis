@@ -26,6 +26,11 @@ This project quantifies that tension — the **AI Cannibalization Paradox** — 
 
 ## Dataset
 
+
+<img width="1600" height="892" alt="1000144427" src="https://github.com/user-attachments/assets/ba756087-173d-4e81-8379-7c27f5969afe" />
+
+
+
 Synthetic dataset inspired by Accenture's public annual reports and service portfolio disclosures. 
 
 **800 records · 6 features**
@@ -53,6 +58,11 @@ The model outputs the projected revenue delta — the financial cost of automati
 ### 2. K-Means Clustering (3 Clusters)
 Services were segmented by `Automation_Potential` and `Hourly_Rate_USD` to identify distinct risk portfolios:
 
+
+<img width="1600" height="780" alt="1000144423" src="https://github.com/user-attachments/assets/918889f8-fb8a-46fc-8ee8-4690b9666c92" />
+
+
+
 | Cluster | Profile | Strategic Implication |
 |---|---|---|
 | **At-Risk** | Low-margin + high automation potential | Highest cannibalization exposure |
@@ -61,6 +71,12 @@ Services were segmented by `Automation_Potential` and `Hourly_Rate_USD` to ident
 
 ### 3. Scenario Analysis
 Projected revenue impact of a 20% increase in automation potential across the test set, quantifying the exact revenue Accenture would "eat" by accelerating AI adoption.
+
+
+
+<img width="1344" height="853" alt="1000144421" src="https://github.com/user-attachments/assets/e11ae00c-8167-40b1-afc2-eafe391718ab" />
+
+
 
 ---
 
@@ -76,9 +92,23 @@ Projected revenue impact of a 20% increase in automation potential across the te
 ## Visualisations
 
 ### Chart 1 — The Cannibalization Effect
-![The Cannibalization Effect](<img width="2591" height="1644" alt="Accenture_Risk_Chart" src="https://github.com/user-attachments/assets/09385166-d4ec-4695-b326-b2dfc91dce27" />
-)
-*As automation potential increases, revenue compresses. The red trend line makes the trade-off impossible to ignore.*
+
+
+
+
+<img width="1600" height="728" alt="1000144417" src="https://github.com/user-attachments/assets/f3219f2c-cf89-47e5-8ee5-86c1c153bcf9" />
+
+
+
+
+### Chart 2 - The errors and Prediction value
+
+
+
+<img width="1599" height="919" alt="1000144425" src="https://github.com/user-attachments/assets/d83944a9-9022-47e8-bcca-81e7264288be" />
+
+
+
 
 ---
 
